@@ -6,15 +6,15 @@ from embed import embed_it
 CHROMA_PATH='vectorized-database'
 
 system_prompt = """
-Answer the question based only on the following context:
+Please respond to the question using only the context provided below:
 
 {context_text}
 
 ---
 
-Answer the question based on the above context: {prompt}
-
+Provide your answer based on the context above: {prompt}
 """
+
 
 
 def chat(prompt):
