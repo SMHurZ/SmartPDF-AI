@@ -39,8 +39,9 @@ Before you begin, ensure you have the following installed on your system:
 ## **Uploading Database**
 Update the 'raw-databse' folder with your own PDF's and run the following command
   ```bash
-   python upload_database.py
+   python upload_database.py --reset
    ```
+'--reset' for reseting sample PDF'S vector data
 
 ---
 
