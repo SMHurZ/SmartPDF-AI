@@ -1,0 +1,8 @@
+chromadb
+ollama
+langchain
+langchain-ollama
+langchain-chroma
+pypdf
+pytest
+tqdm
